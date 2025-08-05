@@ -1,1 +1,1 @@
-# Reminder Bot
+# QnA Bot

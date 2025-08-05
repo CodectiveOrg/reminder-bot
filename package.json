@@ -1,0 +1,28 @@
+{
+  "name": "qna-bot",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "start": "tsx src/main.ts",
+    "prebuild": "rimraf dist/",
+    "build": "tsc",
+    "preview": "node dist/main.js",
+    "lint": "eslint .",
+    "prettier:check": "prettier . --check",
+    "prettier:fix": "prettier . --write"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@types/node": "^20.19.9",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "dotenv": "^17.2.1",
+    "eslint": "^8.57.1",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "rimraf": "^5.0.10"
+  }
+}
